@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:
+baseurl: /python-course/
 markdown: redcarpet
 permalink: /:categories/:title/
 
