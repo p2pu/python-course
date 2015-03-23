@@ -1,3 +1,20 @@
+.brand {
+	position: relative;
+
+	a {
+		position: absolute !important;
+		background-color: $gray-dark;
+		height: 120px;
+		width: 150px;
+		z-index: 5;
+		box-shadow: 0px 5px 15px rgba(81,86,101, 0.5);
+	}
+
+	img{
+		margin: 10px
+	}
+
+}
 
 section {
 	margin: 3em 0;
@@ -5,33 +22,42 @@ section {
 	line-height: 1.8;
 }
 
-.light-section{
+.light-section {
 	background-color: $white;
 
-	hr{
+	hr {
 		border-color: $gray-lighter;
 	}
 }
-.dark-section{
+
+.dark-section {
 	background-color: $gray-lighter;
 
-	hr{
+	hr {
 		border-color: $white;
 	}
 }
+
 .jumbotron {
+
 	background-color: #ffffff;
 	padding: 0;
 
 	.container {
-		background: $jumbotron-color;
-		background-position: bottom left;
-		background-repeat: no-repeat;
-		background-image: url('../img/#{$jumbotron-image}');
-		background-size: auto;
-		color: $white;
 		position: relative;
-		padding: 3em 1em;
+	}
+
+	.heading {
+		font-family: 'Rock Salt', cursive;
+		font-size: 3em;
+		color: $brand-primary;
+		line-height: 2.3;
+	}
+
+	.present {
+		position: absolute;
+		right: 0;
+		bottom: 135px;
 	}
 
 	a {
@@ -45,19 +71,29 @@ section {
 		text-decoration: none;
 	}
 
-	.cta{
-		  margin: 4em;
+	.signup {
+		background-color: $brand-info;
+		padding: 2em;
+
+		.container {
+			text-align: center;
+		}
+
+		.form-group{
+			label{
+				display: block;
+				text-align: left;
+			}
+		}
+	}
+
+	.cta {
+		margin: 4em;
 	}
 
 }
 
-.jumbotron header h1 {
-	font-family: $font-family-sans-serif;
-	font-size: 4em;
-	color: #515665;
-}
-
-.calendar{
+.calendar {
 	background-color: $white;
 	padding: 50px 0 70px 0;
 }

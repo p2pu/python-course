@@ -10,11 +10,16 @@
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="container">
+		<ul class="nav navbar-nav brand">
+			<li>
+					<a href="{{ site.baseurl }}/">
+						<img src="{{site.baseurl}}{{site.img}}gitp-logo.png" alt="Course Logo" />
+					</a>
+			</li>
+		</ul>
 		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav">
-				<li>
-					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
-				</li>
+			<ul class="nav navbar-nav pull-right">
+
 				{% for module in site.data.course.modules %}
 					{% assign first_post = site.categories[module]|reverse|first %}
 					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
@@ -25,7 +30,7 @@
 					</li>
 				{% endfor %}
 				<li>
-					<a href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">Discussion</a>
+					<a href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">Need Help?</a>
 				</li>
 			</ul>
 			<ul class="p2pu-logo">
