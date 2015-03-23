@@ -3,7 +3,7 @@ title: Conditionals
 published: true
 ---
 
-#Dear MOOCie-ians,
+#Dear Python-ians,
 
 We now enter the second week of this course. If you’ve not completed the first week, __don’t panic!__ You’re probably not alone and no points are deducted for working at your own pace. Plus, now there are others working ahead of you that can help you out.
 

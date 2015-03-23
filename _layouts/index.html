@@ -6,10 +6,11 @@ layout: base
 	<div class="container text-center">
 		<div class="present col-md-7 pull-right">
 			{% if site.jumbotron_image %}
-				<img src="{{ site.baseurl }}/img/{{ site.jumbotron_image }}"
+				<img src="{{ site.baseurl }}{{ site.img }}{{ site.jumbotron_image }}"
 				     alt="{{ site.title }} Icon" />
 			{% endif %}
 			<header>
+				<h2>Get even more powerful, learn how to program anything with computer</h2>
 				<h1>{{ site.data.course.description }}</h1>
 			</header>
 
@@ -31,23 +32,3 @@ layout: base
 		</div>
 	</div>
 </div>
-
-{% if site.data.course.signups %}
-	<section class="people clearfix dark-section">
-		<div class="container">
-			<h2>Who else is here?</h2>
-			<hr />
-			<ul class="list-inline">
-				{% for user in site.data.course.signups %}
-					<li class="col-md-1">
-						<a href="https://twitter.com/{{ user.twitter }}"
-						   target="_blank"> <img
-								class="img-circle profile-picture"
-								src="{{ user.image }}"
-								alt="{{ user.name }}"> </a>
-					</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</section>
-{% endif %}

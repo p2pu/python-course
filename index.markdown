@@ -46,11 +46,11 @@ The course begins April 13th, so MOOC-E asks you to kindly start your engines.
 
 Soon, my young knowledge wells, this shall be you:
 
- ![cat image]({{ site.baseurl }}/img/i-can-has-programming-language.jpg) 
+ ![cat image]({{ site.baseurl }}/assets/img/i-can-has-programming-language.jpg) 
 
 My robotic heart thanks you for your valor thus far,
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}/assets/img/moocie-mug.jpg)  
 –Your mechanical friend MOOC-E
 
 

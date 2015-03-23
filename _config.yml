@@ -2,13 +2,14 @@
 baseurl: /python-course
 markdown: redcarpet
 permalink: /:categories/:title/
-
-
+timezone: "Europe/Berlin"
 ga_tracking_code: ''
 p2pu_ga_tracking_code: ''
 
+
+
 # Some files we need to exclude, so Github can build the site
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock, README.md, Guardfile]
 
 defaults:
   -
@@ -17,18 +18,26 @@ defaults:
     values:
       layout: "course_page"
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
 prose:
   media: img
   ignore:
     - /_includes
     - /_layouts
     - /_sass
-    - /fonts
-    - /js
-    - /css
+    - /assets
 
 # Set some personal styles and logo for your course
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
 jumbotron_color: "#FFFFFF"
-jumbotron_background_image: "mooc-e.jpg"
+jumbotron_background_image: "mooce-direction.jpg"
 jumbotron_image: "python-logo.png"
+
+img: /assets/img/
+
+
+
+
