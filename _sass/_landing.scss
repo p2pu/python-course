@@ -1,20 +1,4 @@
-.brand {
-	position: relative;
 
-	a {
-		position: absolute !important;
-		background-color: $gray-dark;
-		height: 120px;
-		width: 150px;
-		z-index: 5;
-		box-shadow: 0px 5px 15px rgba(81,86,101, 0.5);
-	}
-
-	img{
-		margin: 10px
-	}
-
-}
 
 section {
 	margin: 3em 0;
@@ -58,6 +42,14 @@ section {
 		position: absolute;
 		right: 0;
 		bottom: 135px;
+
+		header{
+			position: relative;
+
+			img{
+				position: absolute;
+			}
+		}
 	}
 
 	a {
@@ -72,7 +64,7 @@ section {
 	}
 
 	.signup {
-		background-color: $brand-info;
+		background-color: $gray-dark;
 		padding: 2em;
 
 		.container {

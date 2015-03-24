@@ -2,6 +2,47 @@
 	margin-bottom: 0;
 }
 
+.brand {
+	position: relative;
+
+	a {
+		position: absolute !important;
+		background-color: $gray-dark;
+		height: 65px;
+		width: 75px;
+		z-index: 5;
+		box-shadow: 0px 5px 15px rgba(81,86,101, 0.5);
+
+		@media (min-width: $screen-sm-max) {
+			height: 120px;
+			width: 133px;
+		}
+	}
+
+	img{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+}
+
+.subnav{
+	margin-top: 75px;
+	border-top: 1px solid $gray-light;
+
+	@media (min-width: $screen-sm-max) {
+		border-top: 0;
+		float: right;
+		margin-top: 0;
+	}
+	@media (min-width: $screen-sm-max) and (max-width: 1120px){
+		margin-right: 60px;
+	}
+	@media (min-width: 1000){
+		margin-right: 0;
+	}
+}
+
 .p2pu-logo {
 
 	position: absolute;

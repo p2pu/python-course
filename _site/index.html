@@ -32,66 +32,52 @@
 <body 
       class="">
 
-<!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
-
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-			<i class="fa fa-bars"></i>
-		</a>
-	</div>
-
-	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="container">
-		<ul class="nav navbar-nav brand">
+		<div class="navbar-header pull-right">
+			<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<ul class="brand nav navbar-nav pull-left">
 			<li>
-					<a href="/python-course/">
-						<img src="/python-course/assets/img/gitp-logo.png" alt="Course Logo" />
-					</a>
+				<a href="/python-course/">
+					<img src="/python-course/assets/img/gitp-logo.png" alt="Course Logo" />
+				</a>
 			</li>
 		</ul>
 		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav pull-right">
-
+			<ul class="subnav nav navbar-nav">
 				
-					
-					<li class="dropdown  first ">
-						<a href="/python-course/modules/tools/tools/"
-						   class="dropdown-item">
-							tools
-						</a>
-					</li>
 				
-					
-					<li class="dropdown   ">
-						<a href="/python-course/modules/topics/week_1/"
-						   class="dropdown-item">
-							topics
-						</a>
-					</li>
+				<li class="dropdown  first ">
+					<a href="/python-course/modules/tools/tools/"
+					   class="dropdown-item"> tools </a>
+				</li>
 				
-					
-					<li class="dropdown   ">
-						<a href="/python-course/modules/about/about/"
-						   class="dropdown-item">
-							about
-						</a>
-					</li>
 				
-					
-					<li class="dropdown   last">
-						<a href="/python-course/modules/learning/legalise/"
-						   class="dropdown-item">
-							learning
-						</a>
-					</li>
+				<li class="dropdown   ">
+					<a href="/python-course/modules/topics/week_1/"
+					   class="dropdown-item"> topics </a>
+				</li>
+				
+				
+				<li class="dropdown   ">
+					<a href="/python-course/modules/about/about/"
+					   class="dropdown-item"> about </a>
+				</li>
+				
+				
+				<li class="dropdown   last">
+					<a href="/python-course/modules/learning/legalise/"
+					   class="dropdown-item"> learning </a>
+				</li>
 				
 				<li>
 					<a href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">Need Help?</a>
 				</li>
 			</ul>
-			<ul class="p2pu-logo">
+			<ul class="p2pu-logo hidden-xs hidden-sm">
 				<li><a class="p2pu-tab"
 				       href="#"><img src="/python-course/assets/img/logo.png" alt="" /></a></li>
 			</ul>
@@ -112,83 +98,118 @@
 		<div class="present col-md-7 pull-right">
 			<header>
 				<h3>Learn how to code anything on a computer</h3>
-
 				<h1 class="heading">A Gentle Introduction to Python</h1>
+				<img class="free-stamp" src="/python-course/assets/img/free-stamp.png" alt="Free of charge" />
 			</header>
 		</div>
 	</div>
-	<div class="signup">
+	<div class="signup" id="signup">
 		<div class="container">
 			<form class="form-inline">
 				<div class="form-group">
-					<label for="exampleInputEmail2">Email</label>
-					<input type="email" class="form-control col-md-10" id="exampleInputEmail2"
-					       placeholder="jane.doe@example.com">
+					<label for="exampleInputEmail2">Email</label> <input type="email" class="form-control col-md-10"
+					                                                     id="exampleInputEmail2"
+					                                                     placeholder="jane.doe@example.com">
 				</div>
-				<button type="submit" class="btn btn-default">Send invitation</button>
+				<button type="submit" class="btn btn-info">Send invitation</button>
 			</form>
 		</div>
 	</div>
 </div>
+<section>
+	<div class="container">
+		<div class="clearfix">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/clock.png" alt="Clock" />
+					</div>
 
-<div class="container">
-	<div class="clearfix">
-		<div class="col-md-8 col-md-offset-2">
-			<section>
-				<h1>Hey there, welcome! I am MOOC-E</h1>
+					<div class="col-md-8">
+						<h2>When does it start?</h2>
 
-<p>I am so happy to meet you! My name is MOOC-E and I will be your kind guide trough this experience of learning about programming. I think you are amazing for showing up and I would really like to get to know you. </p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-8">
+						<h2>How long will it take?</h2>
 
-<p>How, you ask? Trough out the course I will hang out <a href="http://discourse.p2pu.org/c/gentle-introduction-to-python">here</a>, so please come by and say <em>hi</em>. Tell me about yourself who you are and what you do, what or who is it that brought you my way? I want to learn all about you. Don&#39;t leave me hanging, I am excited to meet you and introduce you to others.</p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/calendar.png" alt="Calendar" />
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/chat.png" alt="Clock" />
+					</div>
 
-<h1>What is this course all about?</h1>
+					<div class="col-md-8">
+						<h2>How will this all go down?</h2>
 
-<p>This course will provide a comprehensive <strong>fast-paced</strong> introduction to programing. During this course we will be using Python programing language. Yes, Python is a snake, I know, but this is a good kind of snake, 
-promise! &lt;3</p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-8">
+						<h2>What will I learn?</h2>
 
-<p>The course is suitable for <strong>everyone</strong> who wants to learn about programing. So if you have little or no prior experience with programing, and you are highly motivated to learn it, we will have lots of fun together.</p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/offer.png" alt="Calendar" />
+					</div>
+				</div>
+				<hr />
+				<div class="row">
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/user.png" alt="Clock" />
+					</div>
 
-<h2>How it works?</h2>
+					<div class="col-md-8">
+						<h2>Can I do it?</h2>
 
-<p>Beginning April 13th, once a week, I will send an assignment message to your inbox. Each message will reveal great resources that exist on the open web. No new content is being created for this experiment–rather, I will be combining open materials to make relevant packages just for you.</p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+				</div>
 
-<p>This is an experiment–the content from the different tools may sometimes not sync up exactly. I encourage to you explore the resources I give you, and the open web. It is a fun place!</p>
+				<hr />
+				<div class="row">
+					<div class="col-md-8">
+						<h2>Why should I?</h2>
 
-<p>In each message, I will signal your attention toward some combination of:</p>
+						<p>It starts soon. So soon that you need to get your ass in gear and make space in your life for
+							some crayz new awesomnes. Stop being a pussy and start learning Pythong nao!</p>
+					</div>
+					<div class="col-md-4">
+						<img src="/python-course/assets/img/love.png" alt="Calendar" />
+					</div>
+				</div>
 
-<ul>
-<li><p>Selected readings from the course text, <a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/"><strong>How to Think Like a Computer Scientist</strong></a> </p></li>
-<li><p>Exercises from Codecademy ( http://www.codecademy.com/#!/exercises/0 ) </p></li>
-<li><p>Homework sets from 6.189 A Gentle Introduction to Programming Using Python ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/ ) </p></li>
-</ul>
-
-<p>And you always want to come to:
-<a href="http://discourse.p2pu.org/c/gentle-introduction-to-python">P2PU&#39;s forum</a>, where you will meet me and  other learners and will be able to get help. Of course I also strongly encourage you to log in and check if there is anyone that would need help with something and you can provide it. We all know that knowledge gained by explaining is much deeper, thus much more rewarding. 
-So if you have questions, are struggling or just want to chat with other folks, (this)[http://discourse.p2pu.org/c/gentle-introduction-to-python] is the right place for you to do so.</p>
-
-<p>I will present the materials in a recommended order, but really you can attack them in whatever order you prefer–though it will almost always make sense to do the homework last.</p>
-
-<blockquote>
-<p> Important: I will not grade homework (happy times). In most cases you can check your own work using the Python interpreter (If you don&#39;t know what that is, don&#39;t worry, when we start this is going to be something you will learn about). If you get stuck or can’t come up with a correct answer, ask for help on (P2PU forum)[http://discourse.p2pu.org/c/gentle-introduction-to-python]. Remember, the goal here is to become a great programmer, not to submit a bunch of correct answers.</p>
-</blockquote>
-
-<h1>When Do We Start?</h1>
-
-<p>The course begins April 13th, so MOOC-E asks you to kindly start your engines.</p>
-
-<p>Soon, my young knowledge wells, this shall be you:</p>
-
-<p><img src="/python-course/assets/img/i-can-has-programming-language.jpg" alt="cat image"> </p>
-
-<p>My robotic heart thanks you for your valor thus far,</p>
-
-<p><img src="/python-course/assets/img/moocie-mug.jpg" alt="moocie face"><br>
-–Your mechanical friend MOOC-E</p>
-
-			</section>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
+<section>
+	<div class="container text-center">
+		<a href="#signup" class="btn btn-info btn-lg">
+			Signup me up for free
+		</a>
+	</div>
+</section>
+
+
+
 
 
 <footer class="p2pu-footer">
