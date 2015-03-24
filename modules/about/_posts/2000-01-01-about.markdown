@@ -1,5 +1,5 @@
 ---
-title: Syntax and input
+title: The how
 published: true
 ---
 
@@ -40,11 +40,11 @@ The course begins April 13th, so MOOC-E asks you to kindly start your engines.
 
 Soon, my young knowledge wells, this shall be you:
 
- ![cat image]({{ site.baseurl }}/img/i-can-has-programming-language.jpg) 
+ ![cat image]({{ site.baseurl }}{{site.img}}i-can-has-programming-language.jpg) 
 
 My robotic heart thanks you for your valor thus far,
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E
 
 

@@ -1,10 +1,9 @@
 ---
-title: Tools and installments
+title: Tools
 ---
 #My young padawan,
 
-Here are some tools that we will be using while we learn. As I probably mentioned already, 
-I gathered the tools from the internet, because I think there is some great stuff out there. I encourage you
+Here are some tools that we will be using while we learn. I gathered these tools from the internet, because I think there is some great stuff out there. I encourage you
  to explore other courses, but only after you are finished with this one of course. We don't want you to 
  lose focus, now do we? :)
 
@@ -36,11 +35,10 @@ Codecademy Python exercises are written in Python 2.7, and the rest of the class
 
 I encourage you to see problems as learning opportunities. To wit:
 
-* If there’s a technical problem with the site, drop me a note at the forum or email me at [mooc-e@p2pu.org]( mailto:mooc-e@p2pu.org ) .
-* If you’re stuck and want a quick question answered, consult (P2PU's forums)[http://discourse.p2pu.org/c/gentle-introduction-to-python].
+* If you’re stuck and want a quick question answered, consult [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python). I am hanging there day and night.
 * If you’re looking to discuss problems or work through them with other people, think about forming for a small group in your local community by finding people that are as motivated as you are to study with you.
 
-![Computer catz]({{ site.baseurl }}/img/computer_cats.jpg)
+![Computer catz]({{ site.baseurl }}{{site.img}}computer_cats.jpg)
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E
