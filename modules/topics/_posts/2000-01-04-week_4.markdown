@@ -1,29 +1,28 @@
 ---
-title: Strustures
+title: Structures
 published: true
 ---
 
-#Dear MOOCie-ians,
+#Arrowing our way trough
 
-Welcome back!  We resume with week 4.  You’re now midway through the adventure.  Hopefully you’ve had a good week of catching up, relaxing or working ahead.
+How does it feel, to be awesome? You’re now midway through the adventure. Hopefully you’ve had a good week of catching up, relaxing or working ahead and hanging with us on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python)
 
-Materials:
+#Reading
+We will look into something called structures. I don't think they mean concrete buildings, but it sure sounds like they are just as important. You will find information about them in Chapters 7, 9 and 10 from [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html).
 
-* Text: Chapter 7,9 and 10 from [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html).
+##Doing
+Codecademy also has some good exercises that will show us how to work with structures. Work on units called [Lists & Dictionaries] and [Student Becomes the Teacher](http://www.codecademy.com/tracks/python).
 
-* Codecademy: Units named *LISTS & DICTIONARIES* and *STUDENT BECOMES THE TEACHER* (http://www.codecademy.com/tracks/python).
 
-
-Tasks:
+##Homework
 
 * Complete sections 3.1 from Handout 3 of 6.189 [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw3.pdf) 
 
 
-As always, ask for help for help on [P2PU's forum](http://discourse.p2pu.org/c/gentle-introduction-to-python).
+As always, ask for help for help, or just hang with us on [our community forum](http://discourse.p2pu.org/c/gentle-introduction-to-python).
 
 Keep on keepin’ on!
 
-Much happy Pythoning.
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E

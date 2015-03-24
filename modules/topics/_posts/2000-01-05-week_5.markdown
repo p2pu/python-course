@@ -1,22 +1,20 @@
 ---
-title: Objects
+title: Classes
 published: true
 ---
 
-#Dear MOOCie-ians,
+#Classes classes,
 
-On to week 5. Here we begin a shift in the course materials from a focus on reading and exercises to project work. Now we’re gettin’ (more) real.
+On with Classes and other stuff. Here we begin a shift in the course materials from a focus on reading and exercises to project work. Now we’re gettin’ (more) real.
 
-Here are your materials and tasks:
-
-Materials:
-
-* Text: Chapter 12-14 from [How to Think Like a Computer Scientist]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ) .
+#Reading
+What are those pesky classes programmers are always talking about? Find out in chapters 12-14 from [How to Think Like a Computer Scientist]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ) .
 	
-* Codecademy: Units *Loops*, *Exam Statistics* and *Introduction to classes* ( http://www.codecademy.com/tracks/python ) 
+##Doing
+Codecademy - How do you like it? This week let's work trough units [Loops, Exam Statistics and Introduction to classes] ( http://www.codecademy.com/tracks/python ) 
 
 
-Tasks:
+#Homework
 
 * First: Complete sections 3.10 and 3.11 from Written Exercises 3 ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw3_written.pdf )
  
@@ -25,11 +23,11 @@ Tasks:
 * Complete Project 1 ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_project1.pdf ) 
 
 
-As always, ask for help for help on [P2PU's forum](http://discourse.p2pu.org/c/gentle-introduction-to-python).
+Btw, have you talked to Erika at the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python) yet? She told me, she used to be a hairdresser, but now she is a Python programmer. Forum is full of interesting people, and they know a lot...a lot. Find your way there, you will not regret it. 
 
 Show off them mad skills!
 
 Much happy projecting.
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E

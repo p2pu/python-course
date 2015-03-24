@@ -3,32 +3,31 @@ title: Functions
 published: true
 ---
 
-#Dear MOOCie-ians,
+#def learn_python(): 
 
-Welcome to week 3–you’ll be halfway done at the end of this week. More power to you! You deserve this cute 
-kitten 
+Welcome to the third module–you’ll be halfway done at the end of this week. More power to you! You deserve this cute kitten.
 
-![kitten]({{ site.baseurl }}/img/cute-kitten.jpg)
+![cute kitten image]({{ site.baseurl }}{{site.img}}cute-kitten.jpg)
 
-Now let's push forward.
+Now let's push forward to Functions and Lists. 
 
-Materials:
+##Reading
+Get to know the powerful things called Functions and then another powerful thing called Lists in chapter 3, sections 6.5-6.9 and chapter 8 from [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html). They are the very building blocks of computer programing, so yeah... we're into some serious depth now. 
 
-* Text: Chapter 3, sections 6.5-6.9 and chapter 8 from How to Think Like a Computer Scientist ( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ).
+##Doing
+We will be typing and thinking away at Codecademy doing units called [Functions and Lists and dictionaries] (http://www.codecademy.com/tracks/python).
 
-* Codecademy: Units named *Functions* and *Lists and functions* (http://www.codecademy.com/tracks/python).
 
-
-Tasks:
+##Homework
 
 * Complete sections 2.0-2.6 and 2.7 from Handout 2 of 6.189 [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw2.pdf) 
 
+I remind you not to feel bad if you are struggling to keep up. After all, we’re not keeping score here, we’re helping each other to learn Python. Just keep trying, I promise you'll get there.
 
-As always, ask for help for help on [P2PU's forum](http://discourse.p2pu.org/c/gentle-introduction-to-python).
+As always, I invite you to come to our [community space](http://discourse.p2pu.org/c/gentle-introduction-to-python) ask for explanations and even more important give some too. Find me and the others and have a laugh with us, we are always talking about some interesting stuff.
 
-Once again, I remind you not to panic if you are struggling to keep up. After all, we’re not keeping score here, we’re helping you to learn Python. Just keep trying.
 
 Much happy Pythoning.
 
-![moocie face]({{ site.baseurl }}/img/moocie-mug.jpg)  
+![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E
