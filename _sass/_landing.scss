@@ -31,23 +31,84 @@ section {
 		position: relative;
 	}
 
-	.heading {
-		font-family: 'Rock Salt', cursive;
-		font-size: 3em;
-		color: $brand-primary;
-		line-height: 2.3;
+	.moocie {
+		padding-top: 35px;
+		margin-bottom: 71px;
+
+		@media (min-width: $screen-xs-max){
+			margin-bottom: 0;
+		}
+
+		img{
+			@media (min-width: $screen-xs-max) {
+				width: 100%;
+			}
+		}
 	}
 
 	.present {
 		position: absolute;
-		right: 0;
-		bottom: 135px;
+		top: 0;
+		left: 0;
+		min-height: 340px;
 
-		header{
-			position: relative;
+		@media (min-width: $screen-xs-max) {
+			position: absolute;
+			min-height: initial;
+			right: 25px;
+			bottom: 130px;
+			left: initial;
+			top: initial;
+		}
 
-			img{
-				position: absolute;
+		@media (min-width: $screen-md) {
+			right: 50px;
+			bottom: 195px;
+		}
+		@media (min-width: $screen-md-max) {
+
+		}
+
+		h3 {
+			font-size: 1.2em;
+			line-height: 1.4em;
+			@media (min-width: $screen-xs-max) {
+				font-size: 1.3em;
+			}
+			@media (min-width: $screen-lg) {
+				font-size: 2em;
+			}
+		}
+		.heading {
+			font-family: 'Rock Salt', cursive;
+			font-size: 1.2em;
+			color: $brand-primary;
+			line-height: 2;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			@media (min-width: $screen-xs-max) {
+				position: relative;
+				font-size: 1.8em
+			}
+			@media (min-width: $screen-lg) {
+				font-size: 3em;
+			}
+		}
+
+		.free-stamp {
+			width: 20%;
+			top: 177px;
+			right: 77px;
+			position: absolute;
+			@media (min-width: $screen-xs-max) {
+				top: 150px;
+				right: 55px;
+			}
+			@media (min-width: $screen-lg) {
+				top: 230px;
+				right: 75px;
 			}
 		}
 	}
@@ -81,6 +142,22 @@ section {
 
 	.cta {
 		margin: 4em;
+	}
+
+}
+
+.faq-icon{
+	img{
+		width: 100%;
+		margin-top: 22px;
+		@media (min-width: $screen-sm) {
+			width: initial;
+		}
+	}
+	&.right-align{
+		@media (min-width: $screen-sm) {
+			float: right;
+		}
 	}
 
 }
