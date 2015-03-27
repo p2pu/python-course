@@ -21,6 +21,9 @@
 					   class="dropdown-item"> {{ module }} </a>
 				</li>
 				{% endfor %}
+				<li{% if page.url == "/map/index.html" %} class="active"{% endif %}>
+          <a href="{{ site.baseurl }}/map/">Map</a>
+				</li>
 				<li>
 					<a href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">Need Help?</a>
 				</li>
