@@ -15,8 +15,10 @@
 		<div class="collapse navbar-collapse" id="p2pu-menu">
 			<ul class="subnav nav navbar-nav">
 				{% for module in site.data.course.modules %}
+					{{ modsite.categories[module] }}gg
 				{% assign first_post = site.categories[module]|reverse|first %}
-				<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+
+					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
 					<a href="{{ site.baseurl }}{{ first_post.url }}"
 					   class="dropdown-item"> {{ module }} </a>
 				</li>
