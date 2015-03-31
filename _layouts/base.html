@@ -49,6 +49,12 @@
 <script src="{{ site.baseurl }}/assets/js/init.js"></script>
 <script src="{{ site.baseurl }}/assets/js/gh_link_helper.js"></script>
 
+{% if page.extra_js %}
+  {% for js in page.extra_js %}
+    <script src="{{site.baseurl}}{{js}}"></script>
+  {% endfor %}
+{% endif %}
+
 <script>
 		P2PU.ciab.init();
 </script>
