@@ -1,10 +1,22 @@
 .organize-jumbotron{
 	padding: 3em 0;
 
-	background: url("/python-course/assets/img/study_group.jpg") left -235px;
+	background: url("/python-course/assets/img/study_group.jpg") left top no-repeat;
 	background-size: cover;
-
 	color: $white;
+
+	@media (min-width: $screen-lg) {
+		background-position: center -236px;
+	}
+
+	.title{
+		color: $brand-primary;
+
+		@media (min-width: $screen-lg) {
+			color: $white;
+		}
+
+	}
 
 	.subtitle{
 		padding: 1em 0;
@@ -14,5 +26,10 @@
 	.btn{
 		font-size: 1em;
 		font-weight: bold;
+		margin: 0.5em;
+
+		@media (min-width: $screen-sm) {
+			margin: 0;
+		}
 	}
 }
