@@ -1,5 +1,5 @@
 ---
-title: Why?
+title: The why
 ---
 #Dear Pythonians,
 
