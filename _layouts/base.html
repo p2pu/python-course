@@ -26,6 +26,16 @@
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/p2pustrap-custom.css" />
 
+{% if page.extra_css %}{% for css in page.extra_css %}
+  {% assign start = css|truncate:7 %}
+  {% if start == 'http...' %}
+    <link rel="stylesheet" href="{{css}}"/>
+  {% else %}
+    <link rel="stylesheet" href="{{site.baseurl}}{{css}}"/>
+  {% endif %}
+{% endfor %}{% endif %}
+
+
 	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
 	<script type="text/javascript" src="{{ site.baseurl }}/assets/js/modernizr-2.6.2.min.js"></script>
 </head>
@@ -49,11 +59,14 @@
 <script src="{{ site.baseurl }}/assets/js/init.js"></script>
 <script src="{{ site.baseurl }}/assets/js/gh_link_helper.js"></script>
 
-{% if page.extra_js %}
-  {% for js in page.extra_js %}
-    <script src="{{site.baseurl}}{{js}}"></script>
-  {% endfor %}
-{% endif %}
+{% if page.extra_js %}{% for js in page.extra_js %}
+    {% assign start = js|truncate:7 %}
+    {% if start == 'http...' %}
+      <script src="{{js}}"></script>
+    {% else %}
+      <script src="{{site.baseurl}}{{js}}"></script>
+    {% endif %}
+{% endfor %}{% endif %}
 
 <script>
 		P2PU.ciab.init();
