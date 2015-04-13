@@ -12,7 +12,7 @@ The course is suitable for __everyone__ who wants to learn about programing. So 
 
 ## How it works?
 
-Beginning {{ site.start_course }}, once a week, I will send an assignment message to your inbox. Each message will reveal great resources that exist on the open web. No new content is being created for this experiment–rather, I will be combining open materials to make relevant packages just for you.
+Beginning {{ site.course_start }}, once a week, I will send an assignment message to your inbox. Each message will reveal great resources that exist on the open web. No new content is being created for this experiment–rather, I will be combining open materials to make relevant packages just for you.
 
 This is an experiment–the content from the different tools may sometimes not sync up exactly. I encourage to you explore the resources I give you, and the open web. It is a fun place!
 
