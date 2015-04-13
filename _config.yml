@@ -1,9 +1,9 @@
 # basic configuration
-baseurl: /python-course
+baseurl:
 markdown: redcarpet
 permalink: /:categories/:title/
 timezone: "Europe/Berlin"
-ga_tracking_code: ''
+ga_tracking_code: UA-5757664-24
 p2pu_ga_tracking_code: ''
 
 
