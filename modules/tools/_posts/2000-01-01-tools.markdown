@@ -3,9 +3,7 @@ title: Tools
 ---
 #My young padawan,
 
-Here are some tools that we will be using while we learn. I gathered these tools from the internet, because I think there is some great stuff out there. I encourage you
- to explore other courses, but only after you are finished with this one of course. We don't want you to 
- lose focus, now do we? :)
+Here are some tools that we will be using while we learn. I gathered these tools from the internet because I think there is some great stuff out there. I encourage you to explore other courses, but only after you finish this one of course. We don't want you to lose focus, now do we? :)
 
 ##What Will We Be Using?
 
