@@ -3,7 +3,7 @@ title: The why
 ---
 #Dear Pythonians,
 
-My goal is to help many people to learn to code Python, but also to better understand how large group online learning works, so me and my team will be looking at questions like how peers in this community support one another, whether they are more engaged with the sites than other users and how well learners in the community have mastered the subject matter.
+My goal is to help many people to learn to code Python, but also to better understand how large group online learning works. My team and I will be looking at questions like how peers in this community support one another, whether they are more engaged with the sites than other users and how well learners in the community have mastered the subject matter. 
 
 In all cases, any user information reported will be in aggregate or anonymous to protect your privacy, and your participation in the course is voluntary. The data collected on the various sites during the course is further governed by each site’s terms of use and privacy policies, which can be found here:
 
