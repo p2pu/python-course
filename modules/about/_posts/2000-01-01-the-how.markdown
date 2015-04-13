@@ -5,7 +5,7 @@ published: true
 
 #What is this course all about?
 
-This course will provide a comprehensive __fast-paced__ introduction to programing. During this course we will be using Python programing language. Yes, Python is a snake, I know, but this is a good kind of snake, 
+This course will provide a gentle introduction to programing. During this course we will be using Python programing language. Yes, Python is a snake, I know, but this is a good kind of snake, 
 promise! <3
 
 The course is suitable for __everyone__ who wants to learn about programing. So if you have little or no prior experience with programing, and you are highly motivated to learn it, we will have lots of fun together.
