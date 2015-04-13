@@ -20,13 +20,13 @@ In each message, I will signal your attention toward some combination of:
 
 * Selected readings from the course text, [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/ ) 
 	
-* Exercises from Codecademy ( http://www.codecademy.com/#!/exercises/0 ) 
+* Exercises from [__Codecademy__](http://www.codecademy.com/#!/exercises/0 ) 
 
-* Homework sets from 6.189 A Gentle Introduction to Programming Using Python ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/ ) 
+* Homework sets from 6.189 [__A Gentle Introduction to Programming Using Python__] ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/ ) 
 
 And you always want to come to:
-[P2PU's forum](http://discourse.p2pu.org/c/gentle-introduction-to-python), where you will meet me and  other learners and will be able to get help. Of course I also strongly encourage you to log in and check if there is anyone that would need help with something and you can provide it. We all know that knowledge gained by explaining is much deeper, thus much more rewarding. 
-So if you have questions, are struggling or just want to chat with other folks, (this)[http://discourse.p2pu.org/c/gentle-introduction-to-python] is the right place for you to do so.
+[__our community space__](http://discourse.p2pu.org/c/gentle-introduction-to-python), where you will meet me and  other learners and will be able to get help. Of course I also strongly encourage you to log in and check if there is anyone that would need help with something and you can provide it. We all know that knowledge gained by explaining is much deeper, thus much more rewarding. 
+So if you have questions, are struggling or just want to chat with other folks, [community space](http://discourse.p2pu.org/c/gentle-introduction-to-python) is the right place for you to do so.
 
 I will present the materials in a recommended order, but really you can attack them in whatever order you prefer–though it will almost always make sense to do the homework last.
 
@@ -35,7 +35,7 @@ I will present the materials in a recommended order, but really you can attack t
 
 #When Do We Start?
 
-The course begins April 13th, so MOOC-E asks you to kindly start your engines.
+The course begins on {{ site.course_start }}, so MOOC-E asks you to kindly start your engines.
 
 
 Soon, my young knowledge wells, this shall be you:
