@@ -36,8 +36,17 @@ section {
 		padding-top: 35px;
 		margin-bottom: 71px;
 
+		@media (min-width: $screen-sm) {
+			float: none;
+			margin: 0 auto;
+		}
+
 		@media (min-width: $screen-xs-max){
 			margin-bottom: 0;
+		}
+
+		@media (min-width: $screen-md) {
+			float: left;
 		}
 
 		img{
@@ -50,7 +59,12 @@ section {
 	.present {
 		min-height: 340px;
 
-		@media (min-width: $screen-xs-max) {
+		@media (min-width: $screen-sm) {
+			float: none;
+			margin: 0 auto;
+		}
+
+		@media (min-width: $screen-md) {
 			position: absolute;
 			min-height: initial;
 			right: 25px;
@@ -81,17 +95,27 @@ section {
 			font-family: 'Rock Salt', cursive;
 			font-size: 1.2em;
 			color: $brand-primary;
-			line-height: 2;
+			line-height: 1.7;
 			left: 0;
 			bottom: 0;
 			width: 100%;
 			z-index: 2;
+			margin-top: 0;
+
 			@media (min-width: $screen-xs-max) {
 				position: relative;
 				font-size: 1.8em
+
 			}
 			@media (min-width: $screen-lg) {
 				font-size: 3em;
+			}
+		}
+		.subheading{
+			font-size: 23px;
+
+			@media (min-width: $screen-lg) {
+				font-size: 32px;
 			}
 		}
 

@@ -9,15 +9,25 @@ category:
 			<img src="{{site.baseurl}}{{site.img}}mooce-direction.jpg" alt="Mooc-e robot" class="hidden-xs" />
 			<img src="{{site.baseurl}}{{site.img}}moocie-mobile.jpg" alt="Mooc-e robot" class="hidden-sm hidden-md hidden-lg"/>
 		</div>
-		<div class="present col-md-7 col-sm-7" style="bottom: 20px">
+		<div class="present col-md-7 col-sm-7" style="bottom: 30px">
 			<header>
-				<h3>Thank you for signing up to </h3>
-				<h1 class="heading" style="line-height: 1.7;">{{ site.data.course.description }}</h1>				
-				<h2>We start April 27<sup>th</sup></h2>
+				<h3>Thank you for signing up for</h3>
+				<h1 class="heading">{{ site.data.course.description }}</h1>				
+				<h2 class="subheading">We start {{ site.course_start }}</h2>
 				<br />
-				<p>The mail with all the instructions is in packaging and will be on your way shortly.</p>
+				<p style="font-size: 1em;">The mail with all the instructions is in packaging and will be on your way shortly.</p>
 				<br />
-				<a class="btn btn-info btn-lg" href="{{ site.baseurl }}/">Go back to the site</a>
+				<p style="font-size: 1em;">
+					Now that you are a Pythonista in the making, why don't you go and add yourself to the map of learners. This will let MOOC-E and the rest of the folks know what is the global participation and also to help you find others in your local vicinity.
+					<br />
+					Come on don't be shy, slap your city on the map :)					
+				</p>
+				<a class="btn btn-info" href="{{ site.baseurl }}/map">
+					<i class="fa fa-map-marker"></i>
+					Add my location to the map</a>
+				<a class="btn btn-default" href="{{ site.baseurl }}/">
+					<i class="fa fa-angle-double-right"></i>
+					Go back to the site</a>
 			</header>
 		</div>
 	</div>	
