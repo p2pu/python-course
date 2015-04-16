@@ -1,6 +1,6 @@
 # basic configuration
 baseurl:
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 timezone: "Europe/Berlin"
 ga_tracking_code: UA-5757664-24
