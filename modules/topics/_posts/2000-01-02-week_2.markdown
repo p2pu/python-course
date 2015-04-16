@@ -18,9 +18,9 @@ I like this Codecademy exercises very much. For this week I thought it woudld be
 
 ##Homework
 
-* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from Handout 1 of 6.189 A Gentle Introduction to Computer Science ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf )
+* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from [Handout 1 of 6.189](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf) A Gentle Introduction to Computer Science.
  
-* Complete sections 1.13, 1.14, and 1.15 from Written Exercises 1 of 6.189 A Gentle Introduction to Computer Science ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf ) 
+* Complete sections 1.13, 1.14, and 1.15 from [Written Exercises 1 of 6.189](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf) A Gentle Introduction to Computer Science.
 
 
 ##Important!
