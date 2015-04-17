@@ -5,15 +5,15 @@ published: true
 
 #Hello, World!
 
-Let us start with something simple and easy. Don't worry, you will be quickly able to grasp the idea behind prints, variables and booleans.
+Let's start with something simple and easy. Don't worry, you will quickly grasp the idea behind `prints`, `variables` and `booleans`.
 
-Let your learning style be your guide with the materials. If you like to learn by doing, dive into the Codecademy exercises; if you are a reader, start with the text. Once you are done with all three, move on to the homework.
+Let your learning style be your guide with the materials. If you like to learn by doing, dive into the Codecademy exercises; if you are a reader, start with the text. Once you are done with these, move on to the homework.
 
 
 ##Reading
-I kindly invite you to do some reading about what actually is a program, the difference between formal and natural languages and what does a very basic program look like.
+I kindly invite you to do some reading about what actually is a program. Have you ever wondered what the difference is between natural languages (like English or Spanish) and computer languages? And what does a basic computer program look like.
 
-You can find this materials in an online book's [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html) Chapter 1.
+You can find the answers in Chapter 1 of [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html).
 
 By the end of the week you should also try to finish [Chapter 2 and section 4.12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html)
 
@@ -23,7 +23,7 @@ Doing is a lot of fun, right? Let's unleash our fingers at the keyboard and do t
 
 ##Homework
 
-* Complete sections 1.1 – 1.4 from Handout 1 of 6.189 [A Gentle Introduction to Computer Science]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf)
+* Complete sections 1.1 – 1.4 from Handout 1 of 6.189 [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf)
 
 > Please Note: The “homework 1.py” file referred to in the above handout is available on the assignments page of the 6.189 course materials, and is labled “Code template (PY)” on that page. you can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/hw1.py) 
 
@@ -32,7 +32,7 @@ Doing is a lot of fun, right? Let's unleash our fingers at the keyboard and do t
 
 ##Important!
 
-Remember, you will get much more of this course if you will interact with other folks in our [community space](http://discourse.p2pu.org/c/gentle-introduction-to-python). There is no stupid questions over there, so do not be afraid to start some conversations with other people about this programingmajiggy... or ice-cream.
+Remember, you will get much more of this course if you will interact with other folks in our [community space](http://discourse.p2pu.org/c/gentle-introduction-to-python). There are no stupid questions over there, so do not be afraid to start some conversations with other people about this programingmajiggy... or ice-cream.
  You can start by [introducing yourself]() and telling a nice joke. I am a funny robot and I like funny jokes
 But please come and help me with the homework, I am just a robot who is learning too.
 
