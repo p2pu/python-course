@@ -1,33 +1,58 @@
 ---
-title: Conditionals
+title: 2. What if?
 published: true
 ---
 
-#Dear Pythonian,
+#What if?...or else?
 
-We now enter the second week of this course. If you’ve not completed the first week, __don’t panic!__ You’re probably not alone and no points are deducted for working at your own pace. Plus, now there are others working ahead of you that can help you out. Did you signed up for the [forum] (http://discourse.p2pu.org/c/gentle-introduction-to-python) yet?
+We now enter the second week of this course. If you’ve not completed the first week, __don’t panic!__ You’re probably not alone and no points are deducted for working at your own pace. Plus, now there are others working ahead of you that can help you out.
+Remember if you are having problem understanding a concept, don't fret. You can always ask fellow Pythonistas over at the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}. I am always there too.
 
-Ok, let's just dive right in. Here’s what’s up for this week:
+Ok, let's just dive right in. This week we will be asking ourselves some serious questions. 
 
-##Reading
-Get to know some "smooth" operators and other good stuff in sections 4.1, 4.2, 4.4-4.7, 6.1 & 6.2 from [How to Think Like a Computer Scientist]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ) book.
+We are going to learn about conditionals, as the programmers call them. What are they? I imagine them like this:
 
-##Doing
-I like this Codecademy exercises very much. For this week I thought it woudld be great to get to know a bit more about [Conditionals and Control Flow]( http://www.codecademy.com/tracks/python) – (Unit 3) 
+	IF time_right_now > 9_am:
+	  get_up_and_make_breakfast()
+	ELSE:
+	  push_snooze_button()
+	  
+Another example of another type of conditional is:
+
+	WHILE chocolate:
+	  take_a_piece_and_eat_it()
+
+In programming this type of questions enables us to select a right variable. For example, our Tetris game is always throwing shapes from the top but how does the computer know when to clear the line or multiple lines when we filled it nicely throughout? Code could looks something like this: 
+
+	if line_filled:
+	  clear_line()
+
+This week we will get to know some other cool stuff too, besides conditionals, which will come in handy. So here’s what’s up for this week:
+
+---
+
+####_Reading_
+Get to know some "smooth" operators and conditionals in sections [4.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#1){:target="_blank"}, [4.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#2){:target="_blank"}, [4.4](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#4){:target="_blank"}, [4.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#5){:target="_blank"}, [4.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#6){:target="_blank"}, [4.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#7){:target="_blank"}, [6.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#1){:target="_blank"} & [6.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#2){:target="_blank"} of an online book [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ){:target="_blank"}.
+
+####_Trying it out_
+
+I like this Codecademy's exercises very much, how about you? For this week I thought it would be great to get to know a bit more about [Conditionals and Control Flow]( http://www.codecademy.com/tracks/python){:target="_blank"} – (Unit 3) 
 
 
-##Homework
+####_Exercises_
 
-* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from Handout 1 of 6.189 A Gentle Introduction to Computer Science ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf )
+* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"} in MIT OCW's course _A Gentle Introduction to Computer Science_
  
-* Complete sections 1.13, 1.14, and 1.15 from Written Exercises 1 of 6.189 A Gentle Introduction to Computer Science ( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf ) 
+* Complete sections 1.13, 1.14, and 1.15 from [Written Exercises 1]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf ){:target="_blank"} of MIT OCW's course _A Gentle Introduction to Computer Science_  
 
 
-##Important!
+###Project
 
-Remember if you are having problem understanding a concept, don't fret. You can always ask fellow Pythonic learners at the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python). I am always there too.
+In our `tetis.py` file, let's start asking ourselves what shape we want the program to print out on our IDLE console. So we need to change the code, that when we run our program, the computer should ask about what shape would we like for it to print next. If the answer is for example "J", it should print something like this: `_|`. 
+If you have a nicer looking shapes or greater complexity, then come to our [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} soon and tell me how did you upgrade the game and solve this problem.
 
-MOOC on!
+
+Game on!
 
 ![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E

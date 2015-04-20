@@ -48,7 +48,7 @@ If you feel like you want to start out slowly and really get a very gentle intro
 Let's build something fun, as our first project. When I was a young robot, I spent hours playing simple game called [Tetris](http://www.tetris24.com/){:target="_blank"}. I know that many of you know it very well, don't you? I find it very amusing and also distracting, and as such I think it is a perfect fit for our first project.
 Now that we know how to make the __.py__ files, I suggest that we create a file called `tetis.py`. In the file we can store a name of the shapes in different variables and print them out, something like: 
 
-	J_shape = "J"
+	J_shape = "_|"
 
 Maybe it does not look like much now, but in time we are going to be tetromaniacs again. The 80's are back!
 If you have some creative ideas on how would you build this game, then don't be a stranger. Pop over to [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and blow our minds.
