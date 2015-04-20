@@ -2,6 +2,10 @@ body {
 	background-color: $gray-lighter;
 }
 
+blockquote{
+	font-size: 0.9em !important;
+}
+
 .relative {
 	position: relative;
 }
@@ -139,7 +143,7 @@ body {
 }
 
 .content {
-	line-height: 2;
+	line-height: 1.8;
 }
 
 blockquote {
