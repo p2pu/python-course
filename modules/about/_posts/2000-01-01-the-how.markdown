@@ -43,8 +43,8 @@ Soon, my young knowledge wells, this shall be you:
  
  
 #History lesion first
-This course already ran 5 times in the past 3 years and every time it was very successful. You can read all about it in the [report](http://reports.p2pu.org/mooc-maker/){:target="_blank"}, but it was all possible because of one person. Ladies and gentleman, meet the father of this course [mr. Steve Carson](https://twitter.com/SteveECarson){:target="_blank"}. He was the one that had gathered the exercises together and bravely paved the way for me. The most amazing thing about him is that he wasn't a computer programmer at all. Just had a desire to learn and participate on an experiment called the Mechanical MOOC. 
-Thank you Steve! MOOC-E and the whole P2PU team is very proud that we are able to work with you.
+This course already ran 5 times in the past 3 years and every time it was very successful. You can read all about it in the [report](http://reports.p2pu.org/mooc-maker/){:target="_blank"}. It was all possible because of one person. Ladies and gentlemen, meet the father of this course [mr. Steve Carson](https://twitter.com/SteveECarson){:target="_blank"}. He was the one that had gathered the exercises together and bravely paved the way for me. The most amazing thing about him is that he wasn't a computer programmer at all. Just had a desire to learn and participate on an experiment called the Mechanical MOOC. 
+__Thank you Steve! MOOC-E and the whole P2PU team is very proud that we are able to work with you.__
 
 My robotic heart thanks you for your valor thus far,
 
