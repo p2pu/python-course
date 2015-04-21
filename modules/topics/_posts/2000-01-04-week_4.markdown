@@ -1,25 +1,81 @@
 ---
-title: Structures
+title: What Sequence are you in?
 published: true
 ---
 
 #Arrowing our way trough
 
-How does it feel, to be awesome? You’re now midway through the adventure. Hopefully you’ve had a good week of catching up, relaxing or working ahead and hanging with us on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python)
+How does it feel, to be awesome? You’re now midway through the adventure. Hopefully you’ve had a good week of catching up, relaxing or working ahead and hanging with us on the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}.
 
-#Reading
-We will look into something called structures. I don't think they mean concrete buildings, but it sure sounds like they are just as important. You will find information about them in Chapters 7, 9 and 10 from [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html).
+Remember last week when we made a list of shapes? Remember also, how we made `"` sign at the beginning and the end of each shape? That is because we told the computer to treat our poorly looking shapes like ___Strings___. They are a way of presenting a bunch od characters together. Of course I simplified this, but I like to first understand these concepts at a high level and then dig in.
 
-##Doing
-Codecademy also has some good exercises that will show us how to work with structures. Work on units called [Lists & Dictionaries] and [Student Becomes the Teacher](http://www.codecademy.com/tracks/python).
+> Important: In Python strings can be represented with the sign `"` as well as `'`. It does not matter which one you choose to use, but I recommend you choose one and stick to it.
+
+We will also look into something called sequences. They are called like that because they are storing a sequence of elements. We have already met ___Lists___, now we will meet their friends ___Tuples___ and ___Dicts___.
+
+Remember how you can change the element in the list like this:
+
+	list = ['a', 'b', 'c']
+	list[1] = 'g'
+	 
+which would change our list to `['a', 'g', 'c']`. Remember index in a list always starts with 0. 
+If we want to make a `tuple` we would use `()` signs instead of `[]` to wrap our elements in it. It is impossible to change elements in a tuple, which means we would use it on a data that doesn't need to change. In our __Tetris__ game we could store the points of our little rectangles and their coordinates in a list of tuples, like so:
+
+	shapes = [(Point(Point(center.x - 1, center.y), 
+	           Point(center.x, center.y), 
+	           Point(center.x + 1, center.y), 
+	           Point(center.x + 1, center.y + 1)), 
+	           	           .
+	           	           .
+	           	           .
+	]
+
+We could get the points out like this `J_shape = shapes[0]`. This is a little awkward as it is very hard to remember which shape is at which index in the list of tuples. 
+
+So better sequence to store the points is a `dict`. This is used when you need to find an element but you don't know the index number, however you have a _key_ value that you can search by. For example, our shapes have four points each. This is how we could store them in a `dict` and know which is which too:
+ 
+	shapes = {"J_shape": [Point(Point(center.x - 1, center.y),
+			      Point(center.x    , center.y),
+		              Point(center.x + 1, center.y),
+			      Point(center.x + 1, center.y + 1)],
+				  
+		  "I_shape": [Point(center.x - 2, center.y),
+			      Point(center.x - 1, center.y),
+			      Point(center.x    , center.y),
+			      Point(center.x + 1, center.y)],
+			.
+			.
+			.
+						
+	}
+	
+Now we can search like this `shapes.get("I_shape")` and this would leave us with proper points to draw the I_shape.
 
 
-##Homework
+OK, I have these goodies for you this week:   
 
-* Complete sections 3.1 from Handout 3 of 6.189 [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw3.pdf) 
+---
+
+####_Reading_
+You will find proper information about the structures in [Chapter 7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap07.html){:target="_blank"}, [Chapter 9](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap09.html){:target="_blank"} and [Chapter 10](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap10.html){:target="_blank"} from the online book [How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}.
+
+####_Trying it out_
+Codecademy also has some good exercises that will show us how to work with structures. Work on units called [Lists & Dictionaries](http://www.codecademy.com/tracks/python){:target="_blank"} and [Student Becomes the Teacher](http://www.codecademy.com/tracks/python){:target="_blank"}.
 
 
-As always, ask for help for help, or just hang with us on [our community forum](http://discourse.p2pu.org/c/gentle-introduction-to-python).
+####_Exercises_
+From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
+
+* Complete sections 3.1 from [Handout 3](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw3.pdf){:target="_blank"} 
+
+###Project
+Now we already have the board and the basic shape, but we have to learn how to make all of them. Could you help me to make my board look like this:
+![Tetrominoes]({{ site.baseurl }}{{site.img}}tetrominoes.png)
+
+I saw that color can be changed with `rectangle.setFill('deep pink')` and the outline width can be set like this: `rectangle.setWidth(3)`
+
+Please come to our [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}  and let's do this thing together. You can also search for people to help you solve this problem or just come and hang with the rest of us. You are always welcome!
+
 
 Keep on keepin’ on!
 
