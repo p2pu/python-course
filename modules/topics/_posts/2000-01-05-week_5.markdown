@@ -30,7 +30,7 @@ The problem starts when there is more than one shape, because program can't real
 		self.shape.setFill(color)
 	    
 	  def can_move(self, coordinates):
-	  	if board_free(coordinates):
+	    if board_free(coordinates):
 	      return True
 	    else
 	      return False
@@ -49,9 +49,9 @@ I created an instance of a class Shape. Now I want it to move around:
 	
 The `self` part of the attribute in functions always have to be there. If functions are declared in a `Class` they are called methods. When you actually want to use the method of a class, you can omit the `self` parameter, but you must send other parameters if there are any. In the case above I also had to send new coordinates (_new_x_ and _new_y_).
 
-Wow, this really sounds complicated. Let me tell you, right now I feel like I don't know anything about anything. The one thing I do know is that despite my feelings, persistence will pay off. If you feel you want to give up now, come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and tell me all about it. We can ask others for their support. Let's be brave today!
+Wow, this really sounds complicated. Let me tell you, right now I feel like I don't know anything about anything. The one thing I do know, is that despite my feelings, persistence will pay off. If you feel you want to give up now, come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and tell me all about it. We can ask others for their support. Let's be brave today!
 
-Btw, have you talked to Erika on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} yet? She told me, she used to be a hairdresser, but now she is a Python programmer. Forum is full of interesting people, and they know a lot...a lot. Find your way there, you will not regret it.
+Btw, have you talked to Erika on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} yet? She told me, she used to be a hairdresser, but now she is a Python programmer. I wonder how long it took for her to get the hang of this ___Classes___ business. Forum is full of interesting people, and they know a lot...a lot. Find your way there, you will not regret it.
 
 This week's materials are explaining ___Classes___ in more depth:
 
