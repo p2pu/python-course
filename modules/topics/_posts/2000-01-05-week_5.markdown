@@ -74,7 +74,7 @@ From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw
 ###Project
 
 It is time that we get really serious about our __Tetris__ game! 
-We know now most of the code building that is needed to build it properly, so let's not hesitate and start with section 1 & 2 of the [Final Project](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf){:target="_blank"}
+We know now most of the code building that is needed to build it properly, so let's not hesitate and start with Section 1 & 2 of the [Final Project](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf){:target="_blank"}
 
 > Please Note: The `tetris_template.py` file referred to in the above handout is available on the [assignments page](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments){:target="_blank"} of the MIT OCW's course materials. You can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/tetris_template.py){:target="_blank"}.  
 

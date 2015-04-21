@@ -1,5 +1,5 @@
 ---
-title: The Final project
+title: 6. The Final Countdown
 published: true
 ---
 
@@ -7,28 +7,25 @@ published: true
 #Ta-da, the end is near!
 
 This is it.  The final week’s assignments.  I hope that you’ve learned some Python, made some friends and enjoyed hanging with me and our new friends. 
-This is not really the end, because I will be still in our [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python) hanging and talking to everyone. I really want to know how will your final project go and how you see life, now that you know how to program.
+This is not really the end, because I will be still in our [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} hanging and talking to everyone. I really want to know how will the final project go for you and people who work with you, and also how you see life, now that you know how to write computer program.
 
-#Reading
-This week I have no particular chapter for you to read, but of course you can always finish the readings that I left out from [How to Think Like a Computer Scientist]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html) 
+---
 
-#Doing
+####_Reading_
+This week I have no particular chapter for you to read, but of course you can always finish the readings that I left out from [How to Think Like a Computer Scientist]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}
 
-We only have two more units left to do at Codecademy. Units [File Input and Output and Advanced topics in Python](http://www.codecademy.com/tracks/python ). Sounds interesting.
+####_Trying it out_
+We only have two more units left to do at Codecademy. Units [File Input and Output](http://www.codecademy.com/tracks/python){:target="_blank"} and [Advanced topics in Python](http://www.codecademy.com/tracks/python){:target="_blank"}. Sounds interesting.
 
-#Homework
-This is it, the final assignment:
+###Project
+This is it, the final project:
 
-* Final Project – [__Tetris!__]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf )
-
- 
+Let's work on the rest of the sections of the [Final Project]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf){:target="_blank"} (__Tetris__).
 
 
-That’s it.  When you’ve done that, you’re done.  But fear not–I am not going anywhere, so neither should you.  If you are running behind a little, take your time.  If you are done, feel free to hang with us on [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python) and continue to help out other learners.
+That’s it.  When we’ve done that, we’re done.  But fear not–I am not going anywhere, so neither should you. If you are running behind a little, take your time.  If you are done, feel free to hang with us at [forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and continue to help out other learners for now you are a true Pytonista. Good job.
 
-Thanks for joining me for this leap into a mechanical world – my world. I can't wait to see how you will 
-evolve into righteous software engineer and please don't be a stranger. I want to hear all about how is it 
-going.
+Thanks for joining me for this leap into a mechanical world – my world. I can't wait to see how you will evolve into righteous software engineer and please don't be a stranger. I want to hear all about how is it going in your life.
 
 ![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
 –Your mechanical friend MOOC-E

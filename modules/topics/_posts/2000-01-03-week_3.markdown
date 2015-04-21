@@ -50,7 +50,7 @@ All right? We are getting really proper now, so let's get this week's tasks out:
 Get to know the Functions, Lists deeper and more properly in a [Chapter 3](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap03.html){:target="_blank"}, sections [6.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#5){:target="_blank"}, [6.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#6){:target="_blank"}, [6.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#7){:target="_blank"}, [6.8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#8){:target="_blank"}, [6.9](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#9){:target="_blank"} and [Chapter 8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap08.html){:target="_blank"} from the online book [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}. They are the very building blocks of computer programing, so yeah... we're into some serious depth now. 
 
 ####_Trying it out_
-We will be typing and thinking away at Codecademy doing units called [Functions and Lists and dictionaries](http://www.codecademy.com/tracks/python){:target="_blank"}.
+We will be typing and thinking away at Codecademy doing units [Functions](http://www.codecademy.com/tracks/python){:target="_blank"}, [Lists and functions]((http://www.codecademy.com/tracks/python){:target="_blank"}, [Lists and dictionaries](http://www.codecademy.com/tracks/python){:target="_blank"} and also [Student becomes the teacher]((http://www.codecademy.com/tracks/python){:target="_blank"}.
 
 
 ####_Exercises_
