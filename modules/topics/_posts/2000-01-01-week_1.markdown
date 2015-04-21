@@ -28,17 +28,18 @@ I kindly invite you to do some reading about what actually is a program, the dif
 
 You can find this materials in an online book's [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"} [Chapter 1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html){:target="_blank"}.
 
-By the end of the week you should also try to finish [Chapter 2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap02.html){:target="_blank"} and section [4.12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#12){:target="_blank"}
+By the end of the week you should also try to finish [Chapter 2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap02.html){:target="_blank"} and Section [4.12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#12){:target="_blank"}
 
 ####_Trying it out_
 If you feel like you want to start out slowly and really get a very gentle introduction, than pop over to Codeacademy's page and unleash your fingers at the keyboard. Chapters [Python Units, Python Syntax and Strings and Console Output]( http://www.codecademy.com/tracks/python ){:target="_blank"} is enough for the first week.
 
 
 ####_Exercises_
+From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
-* Complete sections 1.1 – 1.4 from a Handout 1 of a course [A Gentle Introduction to Computer Science]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"}
+* Complete sections 1.1 – 1.4 from a [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"}
 
-* Complete the section 1.9 from Written Exercises 1 of 6.189 [A Gentle Introduction to Computer Science]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf){:target="_blank"} 
+* Complete the section 1.9 from [Written Exercises 1]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf){:target="_blank"} 
 
 > Please Note: The `homework 1.py` file referred to in the above handout is available on the [assignments page](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments){:target="_blank"} of the MIT OCW's course materials, and is labled “Code template (PY)” on that page. you can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/hw1.py){:target="_blank"} 
 

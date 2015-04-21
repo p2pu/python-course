@@ -21,8 +21,13 @@ Another example of another type of conditional is:
 
 	WHILE chocolate:
 	  take_a_piece_and_eat_it()
+	  
+And this type, which is very handy and used a lot:
 
-In programming this type of questions enables us to select a right variable. For example, our Tetris game is always throwing shapes from the top but how does the computer know when to clear the line or multiple lines when we filled it nicely throughout? Code could looks something like this: 
+	FOR every_kitten IN the_litter:
+	  every_kitten.pet()
+
+In programming this type of questions enables us to select a right variable. For example, our ___Tetris___ game is always throwing shapes from the top but how does the computer know when to clear the line or multiple lines when we filled it nicely throughout? Code could looks something like this: 
 
 	if line_filled:
 	  clear_line()
@@ -32,7 +37,7 @@ This week we will get to know some other cool stuff too, besides conditionals, w
 ---
 
 ####_Reading_
-Get to know some "smooth" operators and conditionals in sections [4.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#1){:target="_blank"}, [4.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#2){:target="_blank"}, [4.4](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#4){:target="_blank"}, [4.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#5){:target="_blank"}, [4.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#6){:target="_blank"}, [4.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#7){:target="_blank"}, [6.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#1){:target="_blank"} & [6.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#2){:target="_blank"} of an online book [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ){:target="_blank"}.
+Get to know some "smooth" operators and conditionals in Sections [4.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#1){:target="_blank"}, [4.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#2){:target="_blank"}, [4.4](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#4){:target="_blank"}, [4.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#5){:target="_blank"}, [4.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#6){:target="_blank"}, [4.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#7){:target="_blank"}, [6.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#1){:target="_blank"} & [6.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#2){:target="_blank"} of an online book [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ){:target="_blank"}.
 
 ####_Trying it out_
 
@@ -40,10 +45,11 @@ I like this Codecademy's exercises very much, how about you? For this week I tho
 
 
 ####_Exercises_
+From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
-* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"} in MIT OCW's course _A Gentle Introduction to Computer Science_
+* Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"}
  
-* Complete sections 1.13, 1.14, and 1.15 from [Written Exercises 1]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf ){:target="_blank"} of MIT OCW's course _A Gentle Introduction to Computer Science_  
+* Complete sections 1.13, 1.14, and 1.15 from [Written Exercises 1]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf ){:target="_blank"}  
 
 
 ###Project
