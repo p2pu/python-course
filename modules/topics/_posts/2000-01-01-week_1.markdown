@@ -7,7 +7,7 @@ published: true
 
 Before we dive in, we have to make sense of what it means to write computer code. Python is just one of many many languages, or ways to make computer do something that we want it to. And yes, computers really do only what we tell them to do... But gosh, sometimes it doesn't feel like that, does it?
  
-I think it is best to start with some easy exercises and some reading material on the [MIT OCW's course called "A Gentle Introduction to Computer Science"](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/index.htm){:target="_blank"}.
+I think it is best to start with some easy exercises and some reading material on the [MIT OCW's course called "A Gentle Introduction to Programming Using Python"](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/index.htm){:target="_blank"}.
 
 > Note: The course, where the exercises are taken from, was built for MIT students, who aren't familiar with any programing and are first time coders, like many of us. We will use a lot of their material throughout this course, but their rules do not apply to us. In short: __Feel free to cheat__ as much as you like to. Actually __please, cheat!__ I am encouraging you that you work with other people, ask them about how they solved the problem and conversate as much or as little as you like. I believe in cheating as learning, as a good friend of P2PU [Dave Cormier puts it](http://davecormier.com/edblog/2012/05/16/why-we-work-together-cheating-as-learning/){:target="_blank"}.
 
@@ -35,7 +35,7 @@ If you feel like you want to start out slowly and really get a very gentle intro
 
 
 ####_Exercises_
-From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
+From the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
 * Complete sections 1.1 – 1.4 from a [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"}
 

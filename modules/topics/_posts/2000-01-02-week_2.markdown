@@ -45,7 +45,7 @@ I like this Codecademy's exercises very much, how about you? For this week I tho
 
 
 ####_Exercises_
-From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
+From the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
 * Complete sections 1.5, 1.6 and 1.8 and 1.7 and optional exercises from [Handout 1](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1.pdf){:target="_blank"}
  

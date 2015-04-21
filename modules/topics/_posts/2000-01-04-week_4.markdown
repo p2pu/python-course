@@ -64,7 +64,7 @@ Codecademy also has some good exercises that will show us how to work with struc
 
 
 ####_Exercises_
-From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
+From the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
 * Complete sections 3.1 from [Handout 3](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw3.pdf){:target="_blank"} 
 

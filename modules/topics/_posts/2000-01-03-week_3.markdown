@@ -54,12 +54,12 @@ We will be typing and thinking away at Codecademy doing [Functions](http://www.c
 
 
 ####_Exercises_
-From the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
+From the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}
 
 * Complete sections 2.0-2.6 and 2.7 from a [Handout 2](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw2.pdf){:target="_blank"}
 
 ###Project
-Now we will really put our new gained knowledge to the test. Let's make proper decentl looking Tetris shapes. We will use the [graphics.py](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/graphics.py){:target="_blank"} library from the MIT OCW's course [A Gentle Introduction to Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}. 
+Now we will really put our new gained knowledge to the test. Let's make proper decentl looking Tetris shapes. We will use the [graphics.py](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/graphics.py){:target="_blank"} library from the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}. 
 
 Just make a new file called `graphics.py` and then copy everything on that page and paste it to that file. be sure to save this in the same directory where your code is saved! We can use all of this code now with the import declaration on the top of the file like this: `from graphics import *`. I find that a very good way of learning about the code is to read it. A lot of the time I can't make heads and tails of it, but sometimes it happens that I understand a little portion of what it says, and that shows me that I am progressing, even if I'm feeling that I am going backwards with my learning.
 So let's prepare our `tetris.py` file to import `graphics.py` module and then we can open a window like this: 
