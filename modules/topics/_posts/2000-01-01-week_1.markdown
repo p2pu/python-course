@@ -5,11 +5,11 @@ published: true
 
 #Hello, World!
 
-Before we dive in, we have to make sense of what it means to write computer code. Python is just one of many many languages, or ways to make computer do something that we want it to. And yes, computers really do only what we tell them to do... But gosh, sometimes it doesn't feel like that, does it?
+Before we dive in, we have to make sense of what it means to write computer code. Python is just one of many different languages, or ways to make computers do something that we want it to. And yes, computers really only do what we tell them to do... But gosh, sometimes it doesn't feel like that, does it?
  
-I think it is best to start with some easy exercises and some reading material on the [MIT OCW's course called "A Gentle Introduction to Programming Using Python"](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/index.htm){:target="_blank"}.
+A great way to start thinking about Python is with some easy exercises and reading material from the [MIT OpenCourseWare course called "A Gentle Introduction to Programming Using Python"](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/index.htm){:target="_blank"}.
 
-> Note: The course, where the exercises are taken from, was built for MIT students, who aren't familiar with any programing and are first time coders, like many of us. We will use a lot of their material throughout this course, but their rules do not apply to us. In short: __Feel free to cheat__ as much as you like to. Actually __please, cheat!__ I am encouraging you that you work with other people, ask them about how they solved the problem and conversate as much or as little as you like. I believe in cheating as learning, as a good friend of P2PU [Dave Cormier puts it](http://davecormier.com/edblog/2012/05/16/why-we-work-together-cheating-as-learning/){:target="_blank"}.
+> Note: This course, which most of the exercises are taken from, was built for MIT students, who aren't familiar with any programing and are first time coders, just like many of us. We will use a lot of their material throughout this course, but their rules do not apply to us. In short: __Feel free to cheat__ as much as you like! Actually __please, cheat!__ I am encouraging you to work with other people, ask them about how they solved the problems and converse as much or as little as you like. As our good friend [Dave Cormier puts it](http://davecormier.com/edblog/2012/05/16/why-we-work-together-cheating-as-learning/){:target="_blank"}: "I believe in cheating as learning".
 
 Let your learning style be your guide with the materials. If you like to learn by trying, start with Codecademy's exercises; if you are a reader, start with the text, or you can dive right into the exercises. It is completely up to you.
 
@@ -17,21 +17,22 @@ Don't worry, you will be quickly able to grasp the idea behind `prints`, `variab
 
 ##Important!
 
-Like I said, you will get much more of this course if you will interact with other folks in our [discussions forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}. There is no stupid questions over there, so do not be afraid to start some conversations with other people about this programingmajiggy... or ice-cream. In short-make yourself at home.
+Like I said, you will get much more of this course if you interact with other folks in our [discussions forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}. There are no stupid questions over there, so do 
+not be afraid to start some conversations with other people about this programing-thing-a-majiggy... or ice-cream, or cats, or anything, really. In short-make yourself at home.
  You can start by [introducing yourself](http://discourse.p2pu.org/t/welcome-please-introduce-yourself/379/17){:target="_blank"} and telling a nice joke. I am a funny robot and I like funny jokes.
 Please come and help me with the exercises, I am just a robot who is learning too.
 
 ---
 
 ####_Reading_
-I kindly invite you to do some reading about what actually is a program, the difference between formal and natural languages and what does a very basic program look like.
+I kindly invite you to do some reading about what a program actually is, the difference between formal and natural languages and what a very basic program look like.
 
-You can find this materials in an online book's [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"} [Chapter 1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html){:target="_blank"}.
+You can find these materials in online textbook [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"} [Chapter 1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap01.html){:target="_blank"}.
 
 By the end of the week you should also try to finish [Chapter 2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap02.html){:target="_blank"} and Section [4.12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#12){:target="_blank"}
 
 ####_Trying it out_
-If you feel like you want to start out slowly and really get a very gentle introduction, than pop over to Codeacademy's page and unleash your fingers at the keyboard. Chapters [Python Units, Python Syntax and Strings and Console Output]( http://www.codecademy.com/tracks/python ){:target="_blank"} is enough for the first week.
+If you feel like you want to start out slowly and really get a very gentle introduction, then pop over to Codeacademy's page and unleash your fingers at the keyboard. The chapter [Python Units, Python Syntax and Strings and Console Output]( http://www.codecademy.com/tracks/python ){:target="_blank"} is enough for the first week.
 
 
 ####_Exercises_
@@ -41,23 +42,24 @@ From the MIT OCW's course [A Gentle Introduction to Programming Using Python](ht
 
 * Complete the section 1.9 from [Written Exercises 1]( http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw1_written.pdf){:target="_blank"} 
 
-> Please Note: The `homework 1.py` file referred to in the above handout is available on the [assignments page](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments){:target="_blank"} of the MIT OCW's course materials, and is labled “Code template (PY)” on that page. you can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/hw1.py){:target="_blank"} 
+> Please Note: The `homework 1.py` file referred to in the above handout is available on the [assignments page](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments){:target="_blank"} of the MIT OCW's course materials, and is labled “Code template (PY)” on that page. You can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/hw1.py){:target="_blank"} 
 
 
 
 ###Project
-Let's build something fun, as our first project. When I was a young robot, I spent hours playing simple game called [Tetris](http://www.tetris24.com/){:target="_blank"}. I know that many of you know it very well, don't you? I find it very amusing and also distracting, and as such I think it is a perfect fit for our first project.
-Now that we know how to make the __.py__ files, I suggest that we create a file called `tetis.py`. In the file we can store a name of the shapes in different variables and print them out, something like: 
+Let's build something fun as our first project. When I was a young robot, I spent hours playing simple game called [Tetris](http://www.tetris24.com/){:target="_blank"}. I know that many of you know it very well, don't you? I find it very amusing and also distracting, and as such I think it is a perfect fit for our first project.
+Now that we know how to make the __.py__ files, I suggest that we create a file called `tetris.py`. In the file we can store the names of the shapes in different variables and print them out, something like: 
 
 	J_shape = "_|"
 
-Maybe it does not look like much now, but in time we are going to be tetromaniacs again. The 80's are back!
-If you have some creative ideas on how would you build this game, then don't be a stranger, pop over to [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and blow our minds.
+It may not look like much now, but in time we are going to be tetromaniacs again. The 80's are 
+back!
+If you have some creative ideas on how would you build this game, then don't be a stranger, pop over to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and blow our minds.
 
 
 See you soon!
 
-MOOC-E is leaving you with something of a chuckle… Waiting for you at the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}...come on.
+MOOC-E is leaving you with something of a chuckle…
 
 
 ![moocie face]({{ site.baseurl }}{{site.img}}moocie-mug.jpg)  
