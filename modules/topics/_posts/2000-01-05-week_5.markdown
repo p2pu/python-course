@@ -7,9 +7,10 @@ published: true
 
 Full power ahead!
 
-This week we will introduce some ___Classes___ to our well of code knowledge. What are they good for?
+This week we will introduce some ___classes___ into our well of code knowledge. Classes, you ask? What are 
+they good for?
  
-Once again we will use the __Tetis__ to try and figure this one out. The way I see ___Classes___ is that they are a sort of wrapper around a bunch of functions. For example we have a shape which is able to move left right and down on our board, the shape can also rotate and it mustn't go out of the border limits and also mustn't move to the space which is already occupied. So, shape has to do a lot of stuff. For each of that stuff we can write a function for example:
+Once again we will use the __Tetris__ to try and figure this one out. The way I see ___classes___ is that they are a sort of wrapper around a bunch of functions. For example, we have a shape which is able to move left, right and down on our board. This shape can also rotate, it mustn't go out of the border limits and also mustn't move to the space which is already occupied. So, each shape has to do a lot of stuff. For each bit of that stuff we can write a function; for example:
 
 	def shape_can_move(coordinates):
 	  if board_free(coordinates):
@@ -21,7 +22,7 @@ Once again we will use the __Tetis__ to try and figure this one out. The way I s
 	  if shape_can_move(shape.coordinates):
 	    shape.coordinates = (x, y)
 	    
-The problem starts when there is more than one shape, because program can't really read our minds and know which shape exactly we want to move. The idea is, to introduce a `Class` called ___"Shape"___, like this:
+The problem starts when there is more than one shape, because the program can't really read our minds and know which shape exactly we want to move. The idea is, to introduce a ___class___ called `Shape`, like this:
 
 	class Shape():
 	
@@ -47,21 +48,21 @@ I created an instance of a class Shape. Now I want it to move around:
 
 	shape.move(new_x, new_y)
 	
-The `self` part of the attribute in functions always have to be there. If functions are declared in a `Class` they are called methods. When you actually want to use the method of a class, you can omit the `self` parameter, but you must send other parameters if there are any. In the case above I also had to send new coordinates (_new_x_ and _new_y_).
+The `self` part of the attribute in functions always has to be there. If functions are declared in a ___class___ they are called "methods". When you actually want to use the method of a class, you can omit the `self` parameter, but you must send other parameters if there are any. In the case above I also had to send new coordinates (_new_x_ and _new_y_).
 
-Wow, this really sounds complicated. Let me tell you, right now I feel like I don't know anything about anything. The one thing I do know, is that despite my feelings, persistence will pay off. If you feel you want to give up now, come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and tell me all about it. We can ask others for their support. Let's be brave today!
+Wow, this really sounds complicated. Let me tell you, right now I feel like I don't know anything about anything. The one thing I do know, that despite my feelings, persistence will pay off. If you feel you want to give up now, come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and tell me all about it. We can ask others for their support. Let's be brave today!
 
-Btw, have you talked to Erika on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} yet? She told me, she used to be a hairdresser, but now she is a Python programmer. I wonder how long it took for her to get the hang of this ___Classes___ business. Forum is full of interesting people, and they know a lot...a lot. Find your way there, you will not regret it.
+By the way, have you talked to Erika on the [forum](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} yet? She told me, she used to be a hairdresser, but now she is a Python programmer. I wonder how long it took for her to get the hang of this ___classes___ business. The forum is full of interesting people, and they know a lot...a lot. Find your way there, you will not regret it.
 
-This week's materials are explaining ___Classes___ in more depth:
+This week's materials explain ___classes___ in more depth:
 
 ---
 
 ####_Reading_
-What are those pesky ___Classes___ programmers are always talking about? Find out in more depth in [Chapter 12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap12.html){:target="_blank"}, [Chapter 13](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap13.html){:target="_blank"} and [Chapter 14](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap14.html){:target="_blank"} from the online book [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}.
+What are those pesky ___classes___ that programmers are always talking about? Find out in more depth in [Chapter 12](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap12.html){:target="_blank"}, [Chapter 13](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap13.html){:target="_blank"} and [Chapter 14](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap14.html){:target="_blank"} from the online textbook [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}.
 	
 ####_Trying it out_
-Codecademy - How do you like it? Let's work trough units [Introduction to classes](http://www.codecademy.com/tracks/python){:target="_blank"} this week.
+Codecademy - How do you like it? Let's work through unit [Introduction to classes](http://www.codecademy.com/tracks/python){:target="_blank"} this week.
 
 
 ####_Exercises_
@@ -74,11 +75,11 @@ From the MIT OCW's course [A Gentle Introduction to Programming Using Python](ht
 ###Project
 
 It is time that we get really serious about our __Tetris__ game! 
-We know now most of the code building that is needed to build it properly, so let's not hesitate and start with Section 1 & 2 of the [Final Project](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf){:target="_blank"}
+We now know most of the code building that is needed to build it properly, so let's not hesitate and start with Section 1 & 2 of the [Final Project](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_final_proj.pdf){:target="_blank"}
 
 > Please Note: The `tetris_template.py` file referred to in the above handout is available on the [assignments page](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments){:target="_blank"} of the MIT OCW's course materials. You can also download it [here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/tetris_template.py){:target="_blank"}.  
 
-Come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and let's discuss how we will apply our knowledge to see this project through together.
+Come to the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and let's discuss how we will apply our knowledge to see this project through __together__.
  
 
 Show off them mad skills!
