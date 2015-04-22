@@ -5,7 +5,8 @@ published: true
 
 #What if?...or else?
 
-We now enter the second week of this course. If you’ve not completed the first week, __don’t panic!__ You’re probably not alone and no points are deducted for working at your own pace. Plus, now there are others working ahead of you that can help you out.
+We now enter the second week of this course. If you’ve not completed the first week, __don’t panic!__ You’re probably not alone and no points are deducted for working at your own pace. Plus, now that there are others working ahead of you,
+ they can help you out.
 Remember if you are having problem understanding a concept, don't fret. You can always ask fellow Pythonistas over at the [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}. I am always there too.
 
 Ok, let's just dive right in. This week we will be asking ourselves some serious questions. 
@@ -27,21 +28,21 @@ And this type, which is very handy and used a lot:
 	FOR every_kitten IN the_litter:
 	  every_kitten.pet()
 
-In programming this type of questions enables us to select a right variable. For example, our ___Tetris___ game is always throwing shapes from the top but how does the computer know when to clear the line or multiple lines when we filled it nicely throughout? Code could looks something like this: 
+In programming these types of questions enable us to select the right variable. For example, our ___Tetris___ game is always throwing shapes from the top but how does the computer know when to clear the line or multiple lines once we have filled it nicely throughout? Well, the code could look something like this: 
 
 	if line_filled:
 	  clear_line()
 
-This week we will get to know some other cool stuff too, besides conditionals, which will come in handy. So here’s what’s up for this week:
+This week we will get to know some other cool stuff, besides conditionals, which will come in handy. So here’s what’s up for this week:
 
 ---
 
 ####_Reading_
-Get to know some "smooth" operators and conditionals in Sections [4.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#1){:target="_blank"}, [4.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#2){:target="_blank"}, [4.4](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#4){:target="_blank"}, [4.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#5){:target="_blank"}, [4.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#6){:target="_blank"}, [4.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#7){:target="_blank"}, [6.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#1){:target="_blank"} & [6.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#2){:target="_blank"} of an online book [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ){:target="_blank"}.
+Get to know some "smooth" operators and conditionals in sections [4.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#1){:target="_blank"}, [4.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#2){:target="_blank"}, [4.4](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#4){:target="_blank"}, [4.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#5){:target="_blank"}, [4.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#6){:target="_blank"}, [4.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html#7){:target="_blank"}, [6.1](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#1){:target="_blank"} & [6.2](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#2){:target="_blank"} of the online textbook [__How to Think Like a Computer Scientist__]( http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html ){:target="_blank"}.
 
 ####_Trying it out_
 
-I like this Codecademy's exercises very much, how about you? For this week I thought it would be great to get to know a bit more about [Conditionals and Control Flow]( http://www.codecademy.com/tracks/python){:target="_blank"} – (Unit 3) 
+I like these Codecademy exercises very much, how about you? For this week I thought it would be great to get to know a bit more about [Conditionals and Control Flow]( http://www.codecademy.com/tracks/python){:target="_blank"} – (Unit 3) 
 
 
 ####_Exercises_
@@ -54,8 +55,9 @@ From the MIT OCW's course [A Gentle Introduction to Programming Using Python](ht
 
 ###Project
 
-In our `tetis.py` file, let's start asking ourselves what shape we want the program to print out on our IDLE console. So we need to change the code, that when we run our program, the computer should ask about what shape would we like for it to print next. If the answer is for example "J", it should print something like this: `_|`. 
-If you have a nicer looking shapes or greater complexity, then come to our [discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} soon and tell me how did you upgrade the game and solve this problem.
+In our `tetris.py` file, let's start by asking ourselves what shape we want the program to print out on our IDLE console. To do this, we'll need to change the code, so that when we run our program, the computer will be able to ask about what shape we would  like it to print next. If the answer is for example "J", it should print something like this: `_|`. 
+If you have a nicer looking shape or some with greater complexity, then come to our [discussion forums]
+(http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} quickly and tell us how you upgraded the game and solved this problem.
 
 
 Game on!
