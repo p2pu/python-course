@@ -11,7 +11,7 @@ Welcome to the third module–you’ll be halfway done at the end of this week. 
 
 Now let's push forward to learn about ___lists___ and ___functions___. What are those, you ask? 
 
-Let's start with the ___list___. It is a very useful way of storing a lot of variables. Let's use our ___Tetris___ project again to explain this concept very plainly. In the game there are 6 types of shapes that are falling down the board. Until now we had to store the value like this: `J_shape = "_|"`, and then write out `print J_shape`, but we can avoid having new variable for each of the shapes and just store it like this:
+Let's start with the ___list___. It is a very useful way of storing a lot of variables. Let's use our ___Tetris___ project again to explain this concept very plainly. In the game there are 6 types of shapes that are falling down the board. Until now we had to store the value like this: `J_shape = "_|"`, and then write out `print J_shape`, but there is a way we can avoid having a new variable for each of the shapes and just store it like this:
 
 	shapes = ["_|", "|_|_|", "|_", "_/˜", "|", "˜\_"]
 	
@@ -20,11 +20,11 @@ Now we can "walk" through the list and print out each shape, like this:
 	for shape in shapes:
 	  print shape
 	  
-`list` is just one of the so called data structures that Python has. It is probably most widely used, but next week we will also read about `dict`, which are similar, but more powerful.
+___list___ is just one of the so called "data structures" that Python has. It is probably the most widely used data structure. Next week we will also read about ___dict___, which are similar, but more powerful.
 
 __On to Functions!__
 
-They are usually a command or a list of commands that are repeated throughout the program. Let's say we would like to set a color for each of our shape and then print it out. We could do it like this:
+Functions are usually a command or a list of commands that are repeated throughout the program. Let's say we would like to set a color for each of our shape and then print it out. We could do it like this:
 
 	for shape in shapes:
 	  get_color_and_print(shape)
@@ -34,20 +34,22 @@ And the function would look something like this:
 	def get_color_and_print(shape):
 	  if shape == '_|':
 	    print '\033[95m' + shape + '\033[0m'
-	  elsif shape == '|_|_|'
+	  elif shape == '|_|_|'
 	    print '\033[94m' + shape + '\033[0m'
 	  .
 	  .
 	  .
 	  
-If you can explain it better, then please do not hesitate to come to the [discusion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and ask for explanations and even more important give some too. Find me and the others and have a laugh with us, we are always talking about some interesting stuff.
+If you can explain it better, or if you have any questions, then please do not hesitate to come to the 
+[discussion forums](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"} and ask 
+for explanations and (even more importantly) give some too. Find me and the others and have a laugh with us, we are always talking about some interesting stuff.
 	
 All right? We are getting really proper now, so let's get this week's tasks out: 
 
 ---
 
 ####_Reading_
-Get to know the Functions, Lists deeper and more properly in a [Chapter 3](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap03.html){:target="_blank"}, sections [6.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#5){:target="_blank"}, [6.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#6){:target="_blank"}, [6.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#7){:target="_blank"}, [6.8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#8){:target="_blank"}, [6.9](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#9){:target="_blank"} and [Chapter 8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap08.html){:target="_blank"} from the online book [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}. They are the very building blocks of computer programing, so yeah... we're into some serious depth now. 
+Get to know the Functions and Lists more deeply in [chapter 3](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap03.html){:target="_blank"}, sections [6.5](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#5){:target="_blank"}, [6.6](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#6){:target="_blank"}, [6.7](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#7){:target="_blank"}, [6.8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#8){:target="_blank"}, [6.9](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html#9){:target="_blank"} and [Chapter 8](http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap08.html){:target="_blank"} from the online textbook [__How to Think Like a Computer Scientist__](http://www.greenteapress.com/thinkpython/thinkCSpy/html/index.html){:target="_blank"}. They are the very building blocks of computer programing, so yeah... we're into some serious depth now. 
 
 ####_Trying it out_
 We will be typing and thinking away at Codecademy doing [Functions](http://www.codecademy.com/tracks/python){:target="_blank"}, [Lists and functions](http://www.codecademy.com/tracks/python){:target="_blank"} units.
@@ -59,9 +61,9 @@ From the MIT OCW's course [A Gentle Introduction to Programming Using Python](ht
 * Complete sections 2.0-2.6 and 2.7 from a [Handout 2](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/MIT6_189IAP11_hw2.pdf){:target="_blank"}
 
 ###Project
-Now we will really put our new gained knowledge to the test. Let's make proper decentl looking Tetris shapes. We will use the [graphics.py](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/graphics.py){:target="_blank"} library from the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}. 
+Now we will really put our new gained knowledge to the test. Let's make proper, decent looking ___Tetris___ shapes. We will use the [graphics.py](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/assignments/graphics.py){:target="_blank"} library from the MIT OCW's course [A Gentle Introduction to Programming Using Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011){:target="_blank"}. 
 
-Just make a new file called `graphics.py` and then copy everything on that page and paste it to that file. be sure to save this in the same directory where your code is saved! We can use all of this code now with the import declaration on the top of the file like this: `from graphics import *`. I find that a very good way of learning about the code is to read it. A lot of the time I can't make heads and tails of it, but sometimes it happens that I understand a little portion of what it says, and that shows me that I am progressing, even if I'm feeling that I am going backwards with my learning.
+Just make a new file called `graphics.py` and then copy everything on that page and paste it to that file. Be sure to save this in the same directory where your code is saved! We can use all of this code now with the import declaration on the top of the file like this: `from graphics import *`. I find that a very good way of learning about the code is to read it. A lot of the time I can't make heads and tails of it, but sometimes it happens that I understand a little portion of what it says, and that shows me that I am progressing, even if I'm feeling that I am going backwards with my learning.
 So let's prepare our `tetris.py` file to import `graphics.py` module and then we can open a window like this: 
 
 	win = GraphWin('Rect', 800, 500)
@@ -74,11 +76,12 @@ Now we can draw on this window and since I like rectangular shape, let's draw on
 
 Neat, right?
 
-OK, I would like to stat with something easy. Can you show me how did you draw the shape ![I Shape]({{ site.baseurl }}{{site.img}}I_shape.png) (four rectangles with different coordinates). I would much appreciate your help! Find me [here](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}.
+OK, I would like to start with something easy. Can you show me how you drew the shape ![I Shape]({{ site.baseurl }}{{site.img}}I_shape.png) (four rectangles with different coordinates). I would much appreciate your help! Find me [here](http://discourse.p2pu.org/c/gentle-introduction-to-python){:target="_blank"}.
 
 
 
-I remind you not to feel bad if you are struggling to keep up. After all, we’re not keeping score here, we’re helping each other to learn Python. Just keep trying, I promise you'll get there.
+Also, don't forget: You don't need to feel bad if you are struggling to keep up. After all, we’re not keeping score here, we’re helping each other to learn Python. Just keep trying, ask some questions, join the discussions; I promise 
+you'll get there.
 
 
 
