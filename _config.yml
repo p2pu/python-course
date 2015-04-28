@@ -38,6 +38,8 @@ jumbotron_image: "python-logo.png"
 
 img: /assets/img/
 
+signups_open: "no"
+
 course_start: "April 27<sup>th</sup>"
 
 

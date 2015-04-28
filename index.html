@@ -3,6 +3,8 @@ layout: base
 ---
 <!-- Banner -->
 <div class="jumbotron">
+
+	{% assign signup = site.signups_open|downcase %}
 	<div class="container text-center">
 		<div class="moocie col-md-5 col-sm-5">
 			<img src="{{site.baseurl}}{{site.img}}mooce-direction.jpg" alt="Mooc-e robot" class="hidden-xs" />
@@ -13,16 +15,19 @@ layout: base
 				<h3>Learn programming</h3>
 				<h1 class="heading">{{ site.data.course.description }}</h1>
 				<h4>A six weeks beginner level course teaching computer programming</h4>
+				{% if signup == 'yes' %}
 				<h2>We start {{ site.course_start }}</h2>
+				{% endif %}
 				<img class="free-stamp" src="{{site.baseurl}}{{site.img}}free-stamp.png" alt="Free of charge" />
 			</header>
 		</div>
 	</div>
 	<div class="signup" id="signup">
 		<div class="container">
-			<div class="logo col-md-4 col-sm-4 hidden-xs">
+			<div class="logo col-md-4 col-sm-4 hidden-xs" {% if signup == 'no' %}style="padding: 25px 0"{% endif %}>
 				<img src="{{ site.baseurl }}{{ site.img }}gitp-logo-large-white.png" alt="Course Logo" />
 			</div>
+			{% if signup == 'yes' %}
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup" class="col-md-8 col-sm-8">
 				<form action="//p2pu.us10.list-manage.com/subscribe/post?u=76f4343639188fd7f1bdd0165&amp;id=fb9a647402" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -59,6 +64,17 @@ layout: base
 			</div>
 			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 			<!--End mc_embed_signup-->
+			{% else %}
+				<p>
+					<br /><br /><br />
+					We are already learning, but you can always catch up with everyone on our <a
+						href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">discussion forums</a> and catch up on the learning materials in the
+					<a href="{{ site.baseurl }}/modules/topics/week_1/">topics</a> section of this course.
+				</p>
+				<p>
+				Join us any time!
+				</p>
+			{% endif %}
 		</div>
 	</div>
 </div>
