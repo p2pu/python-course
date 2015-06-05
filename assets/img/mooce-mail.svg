@@ -111,9 +111,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0102944"
-     inkscape:cx="102.88521"
-     inkscape:cy="738.22532"
+     inkscape:zoom="0.52253431"
+     inkscape:cx="-63.257099"
+     inkscape:cy="921.62848"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -150,12 +150,19 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g4007"
-       inkscape:export-xdpi="72.829834"
-       inkscape:export-ydpi="72.829834"
-       inkscape:export-filename="/home/erika/DEV/p2pu/python-course/assets/img/mail-header.png"
-       transform="translate(-174.97544,-34.295186)">
+       id="g4850"
+       inkscape:export-filename="/home/erika/DEV/p2pu/python-course/assets/img/mooce-bck.png"
+       inkscape:export-xdpi="66.867432"
+       inkscape:export-ydpi="66.867432">
+      <rect
+         y="-134.56799"
+         x="-827.60425"
+         height="546.45435"
+         width="1616.2477"
+         id="rect3237"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <g
+         transform="translate(-355.13666,-133.23425)"
          clip-path="url(#clipPath4271)"
          inkscape:export-ydpi="28.546875"
          inkscape:export-xdpi="28.546875"
@@ -327,13 +334,6 @@
                  id="flowPara3958" /></flowRoot>          </g>
         </g>
       </g>
-      <rect
-         y="56.701363"
-         x="-307.55624"
-         height="443.60922"
-         width="537.72687"
-         id="rect3237"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     </g>
     <image
        y="612.36218"

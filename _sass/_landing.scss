@@ -159,7 +159,7 @@ section {
 			}
 
 			@media (min-width: $screen-sm-max) {
-				padding-top: 65px;
+				padding: 35px;
 			}
 			@media (min-width: $screen-lg) {
 				padding-top: 75px;
@@ -171,6 +171,29 @@ section {
 					width: initial;
 				}
 			}
+		}
+
+		.signup-form-wrap {
+			position: relative;
+		}
+
+		.signup-title {
+			margin: 1.8em 0 1em 0;
+			font-size: 1.3em;
+			line-height: 1.5;
+		}
+
+		.response {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: $gray-dark;
+			padding: 1em;
+			line-height: 1.3;
+			font-size: 1.2em;
 		}
 
 		.clear{
@@ -194,6 +217,7 @@ section {
 	}
 
 }
+
 
 .faq-icon{
 	img{
@@ -233,7 +257,7 @@ section {
 
 #map{
 	margin-top: 0;
-	padding: 3em 0;
+	padding: 3em 0 0 0;
 
 	.relative{
 		position: relative;
@@ -259,4 +283,7 @@ section {
 			border-left-color: rgba(81,86,101,0.9);
 		}
 	}
+}
+.faq{
+	margin-top: -10px;
 }

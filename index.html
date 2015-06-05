@@ -14,9 +14,9 @@ layout: base
 			<header>
 				<h3>Learn programming</h3>
 				<h1 class="heading">{{ site.data.course.description }}</h1>
-				<h4>A six weeks beginner level course teaching computer programming</h4>
+				<h4>Self-paced beginner level course teaching computer programming</h4>
 				{% if signup == 'yes' %}
-				<h2>We start {{ site.course_start }}</h2>
+				<h2>Start by going through materials</h2>
 				{% endif %}
 				<img class="free-stamp" src="{{site.baseurl}}{{site.img}}free-stamp.png" alt="Free of charge" />
 			</header>
@@ -32,18 +32,32 @@ layout: base
 			<div id="mc_embed_signup" class="col-md-8 col-sm-8">
 				<form action="//p2pu.us10.list-manage.com/subscribe/post?u=76f4343639188fd7f1bdd0165&amp;id=fb9a647402" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
-						<h2>Join us on this course</h2>
-						<div class="mc-field-group form-group">
-							<label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label>
-							<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-						</div>
-						<div class="mc-field-group form-group">
-							<label for="mce-FNAME">First Name </label>
-							<input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-						</div>
-						<div class="mc-field-group">
-							<label for="mce-LNAME">Last Name </label>
-							<input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+						<div class="signup-form-wrap">
+							<div class="signup-title">From time to time we run facilitated versions of the course, if you
+								would like us to let you know when we do, please sign up:
+							</div>
+							<div class="row">
+								<div class="mc-field-group form-group col-md-6">
+									<label for="mce-FNAME">First Name </label> <input type="text" value="" name="FNAME"
+									                                                  class="form-control" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group form-group col-md-6">
+									<label for="mce-LNAME">Last Name </label> <input type="text" value="" name="LNAME"
+									                                                 class="form-control" id="mce-LNAME">
+								</div>
+							</div>
+
+							<div class="mc-field-group form-group">
+								<label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label> <input
+									type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+							</div>
+							<div class="indicates-required">
+								<span class="asterisk">*</span> indicates required
+							</div>
+							<div class="clear">
+								<input type="submit" value="Sign me up" name="subscribe" id="mc-embedded-subscribe"
+								       class="button btn btn-info">
+							</div>
 						</div>
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
@@ -53,12 +67,7 @@ layout: base
 						<div style="position: absolute; left: -5000px;">
 							<input type="text" name="b_76f4343639188fd7f1bdd0165_fb9a647402" tabindex="-1" value="">
 						</div>
-						<div class="indicates-required">
-							<span class="asterisk">*</span> indicates required
-						</div>
-						<div class="clear">
-							<input type="submit" value="Sign me up" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-info">
-						</div>
+
 					</div>
 				</form>
 			</div>
@@ -69,7 +78,7 @@ layout: base
 					<br /><br /><br />
 					We are already learning, but you can always catch up with everyone on our <a
 						href="http://discourse.p2pu.org/c/gentle-introduction-to-python" target="_blank">discussion forums</a> and catch up on the learning materials in the
-					<a href="{{ site.baseurl }}/modules/topics/week_1/">topics</a> section of this course.
+					<a href="{{ site.baseurl }}/modules/materials/week_1/">topics</a> section of this course.
 				</p>
 				<p>
 				Join us any time!
@@ -88,7 +97,7 @@ layout: base
 
 
 </section>
-<section>
+<section class="faq">
 	<div class="container">
 		<div class="clearfix">
 			<div class="col-md-8 col-md-offset-2">
