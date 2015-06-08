@@ -1,6 +1,7 @@
 ---
 title: 6. The Final Countdown
 published: true
+permalink: /modules/topics/week_6
 ---
 
 

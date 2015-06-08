@@ -1,6 +1,7 @@
 ---
 title: 5. We have class
 published: true
+permalink: /modules/topics/week_5
 ---
 
 #You belong in this class!

@@ -1,6 +1,7 @@
 ---
 title: 3. A little more Functions please
 published: true
+permalink: /modules/topics/week_3
 ---
 
 #def learn_python(): 

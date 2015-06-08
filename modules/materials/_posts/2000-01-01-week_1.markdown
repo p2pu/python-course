@@ -1,6 +1,7 @@
 ---
 title: 1. Write your first program
 published: true
+permalink: /modules/topics/week_1
 ---
 
 #Hello, World!

@@ -1,6 +1,7 @@
 ---
 title: 2. What if?
 published: true
+permalink: /modules/topics/week_2
 ---
 
 #What if?...or else?
